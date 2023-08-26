@@ -1,3 +1,3 @@
 # JS-JAVASCRIPT
 Java script repo for practice
--(its just me )
+-(its just me. )
