@@ -41,5 +41,7 @@ console.log(myarr3);
 splice1=myarr3.splice(1,4)
 console.log("2",splice1);
 
+console.log("2",splice1);
+
 
 
