@@ -33,4 +33,5 @@ obj1.greetingTwo = function(){
 }
 
 console.log(obj1.greeting());
+
 console.log(obj1.greetingTwo());
