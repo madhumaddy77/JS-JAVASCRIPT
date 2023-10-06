@@ -63,10 +63,30 @@ const object3={object1,object2}
 const object4=Object.assign({},object1,object2)
 // console.log(object4);
 
-console.log(Object.keys(details.username.name.firstname));
-console.log(Object.values(details.username.name.firstname));
+// console.log(Object.keys(details.username.name.firstname));
+// console.log(Object.values(details.username.name.firstname));
 
-console.log(obj1.hasOwnProperty('fullname'));
-console.log(obj1.hasOwnProperty('name'));
-console.log(obj1.hasOwnProperty('usn'));
-console.log(obj1.hasOwnProperty('rollno'));
+// console.log(obj1.hasOwnProperty('fullname'));
+// console.log(obj1.hasOwnProperty('name'));
+// console.log(obj1.hasOwnProperty('usn'));
+// console.log(obj1.hasOwnProperty('rollno'));
+
+// deconstruct concept
+const youtube = {
+  js: "hitesh",
+  ds: "love_babar",
+  cp: "striver",
+}
+
+
+
+const {cp}= youtube
+console.log(cp);
+const {ds}= youtube
+console.log(ds);
+
+
+
+
+
+
