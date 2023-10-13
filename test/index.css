@@ -1,10 +1,17 @@
-p {
-  color: rgb(219, 24, 24);
-  background: #bdaaaf;
-  font-weight: 700;
-  margin: auto;
-  width: 50%;
-  border: 3px solid green;
-  padding: 10px;
-  text-align: center;
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+nav {
+  margin-bottom: 1em;
+}
+
+nav a {
+  display: inline-block;
+  margin-right: 1em;
 }
