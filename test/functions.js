@@ -35,15 +35,83 @@ const prompt = require("prompt-sync")({ sigint: true });
 // array1=8,2,3
 // console.log(array(2,3,4,5));
 
- const user={
- username : "madhu",
-  batch:1
- }
+//  const user={
+//  username : "madhu",
+//   batch:1
+//  }
 
- function result(anything){
-  console.log(`${anything.username} is in the batch ${anything.batch}` );
- }
+//  function result(anything){
+// //   console.log(`${anything.username} is in the batch ${anything.batch}` );
+//  }
+
+//  result(user)
+
+// a= 100
+// console.log(a);
+
+// if (true) {
+//     let a=200
+//     console.log("Inner :", a);
+    
+// }
+
+// ******************************************ARROW FUNCTIONS***************************************************
 
 
- result(user)
+
+
+// const name={
+
+//     user:"madhu",
+//     branch:"ai & ml",
+
+
+//  message : function(){
+
+//         console.log(`${this.user} is in the branch ${this.branch} `);
+//         console.log(this);
+//     }
+// }
+
+// name.message()
+
+// name.user="manu"
+// name.message()
+
+
+// const arrowfunctions=()=>{
+
+//     fruit= "apple",
+//     juice= "apple_juice"
+
+//     return(fruit +""+ "and" + "" + juice)
+// }
+
+// console.log(arrowfunctions());
+
+
+
+// const add=(num1,num2)=>{
+// return(num1+num2)
+// }
+
+// console.log(add(2,6));
+
+// +++++++++++++++++++++++++IFFE+++++++++++++++++++++++++++++++++++++++++++
+// (function chai(){
+
+//     console.log(`heY print 1`);
+// }
+
+
+// )();
+
+
+
+// ( (name)=>{
+//     console.log(`heY print 2`);
+// }
+
+// )()
+
 
